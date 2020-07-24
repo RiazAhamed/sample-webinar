@@ -82,7 +82,7 @@ $params = [
 ?>
 <!DOCTYPE html>
 <html class="wpws">
-    <head>   
+    <head>
         <title><?php echo get_the_title(); ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta property="og:title" content="<?php the_title(); ?>">
@@ -99,21 +99,114 @@ $params = [
         <?php if ($webinar->get_live_media_type() === 'jitsi') { ?>
             <script src='https://meet.jit.si/external_api.js'></script>
         <?php } ?>
+        <link rel="stylesheet" href="<?php echo plugins_url('./ltd-app-styles.css', __FILE__) ?>" type="text/css" media="all">
     </head>
 
     <body>
-        <div 
-            id="wpws-live"
-            data-params='<?= str_replace('\'', '&apos;', json_encode($params)) ?>'
-        ></div>
-        <script>
-            ___wpws = <?php echo json_encode($boot_data) ?>;
-        </script>
+        <style type="text/css">
+            body {
+                overflow: auto;
+            }
+            .custom-container {
+                padding: 0 0 100px 0;
+                background: url(<?php echo "'" . plugins_url('../images/custom/webinar-bg.jpg', __FILE__) . "'" ?>);
+                background-size: cover;
+                background-repeat: no-repeat;
+//                 display: inline-block;
+//                 width: 100%;
+                height: 100%;
+                width: 100vw;
+                margin: 0;
+                overflow: auto;
+            }
+            .header-container-wrapper {
+                 padding: 50px 0 40px;
+            }
+            .webinar-container-wrapper {
+                height: calc(100vh - 100px);
+                padding: 0;
+//                 padding-left: 20px;
+            }
+            #wpws-live {
+//                 background: #ffffff;
+                   max-height: 600px;
+                   box-shadow: 0 0 40px #a7a7a7;
+            }
+            .wpws-webinar-toolbar, .wpws-webinar-summary-wrapper, .wpws-webinar-tab-header {
+                display: none;
+            }
+            .align-self--center {
+                align-self: center;
+            }
+            .mejs__container, iframe {
+                     /* height: calc(100vh - 500px) !important;
+                       min-height: 600px !important;*/
+                       max-height: 600px;
+                       width: 100%;
+            }
+            .client-images-wrapper {
+                align-self: center;
+                text-align: center;
+            }
+            .client-images {
+                max-height: 80px;
+                width: auto;
+                padding: 15px;
+            }
+            .wpws-webinar-main, .wpws-webinar-summary-wrapper {
+                background: transparent !important;
+            }
+            .heading {
+                font-size: 45px;
+                line-height: 60px;
+            }
+            .wpws-webinar-questions-ask-button {
+                background: #ed5844;
+                border-radius: 2px;
+                padding: 14px 30px;
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .svg-inline--fa {
+                display: none;
+            }
+        </style>
+        <div class="grid custom-container">
+            <!-- webinar header -->
+            <div class="single__wrapper wrapper container container--xlarge container--center">
+                <div class="grid header-container-wrapper">
+                    <div class="grid__column grid__column--12 grid__column--7@large">
+                        <div class="grid grid--justify grid--gapless space space--xlarge space--none@large">
+                            <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
+                                <img src=<?php echo '"' . plugins_url("../images/custom/logo-1.png", __FILE__) . '"' ?> class="client-images" />
+                            </div>
+                            <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
+                                 <img src=<?php echo '"' . plugins_url("../images/custom/logo-2.png", __FILE__) . '"' ?> class="client-images" />
+                            </div>
+                            <div class="client-images-wrapper grid__column grid__column--12 grid__column--4@large space space--large">
+                                <img src=<?php echo '"' . plugins_url("../images/custom/LTD_Brandmark_RGB.png", __FILE__) . '"' ?> class="client-images" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__column grid__column--12 grid__column--5@large align-self--center">
+                        <h1 class="heading">Title of the talk</h1>
+                        <h4 class="subtitle subtitle--primary-font paragraph weight-400 gutter gutter--small">
+                            A little Description about what this about.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- webinar container -->
+            <div class="grid__column grid__column--12 webinar-container-wrapper">
+                <div id="wpws-live" data-params='<?= str_replace('\'', '&apos;', json_encode($params)) ?>''></div>
+            </div>
+        </div>
+            <script>___wpws = <?php echo json_encode($boot_data) ?>;</script>
 
-        <script src="<?= $polyfill_script ?>"></script>
-        <script src="<?= $script ?>"></script>
+            <script src="<?= $polyfill_script ?>"></script>
+            <script src="<?= $script ?>"></script>
 
-        <!-- placeholder for the body script tag -->
-        <div id="body_script"></div>
+            <!-- placeholder for the body script tag -->
+            <div id="body_script"></div>
     </body>
 </html>

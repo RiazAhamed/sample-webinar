@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e74db2-2c59-4799-a2c6-fdf1be57f879" name="Default Changelist" comment="" />
+    <list default="true" id="74e74db2-2c59-4799-a2c6-fdf1be57f879" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/LTD_Brandmark_RGB.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/logo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/logo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/webinar-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/ltd-app-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1f5ZIrT8ZNBuHFw1b3Ts3NMjyC7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,8 +30,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,6 +47,7 @@
       <recent name="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom" />
       <recent name="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images" />
     </key>
   </component>
@@ -45,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595509837346</updated>
       <workItem from="1595509844977" duration="1388000" />
-      <workItem from="1595513260318" duration="5667000" />
+      <workItem from="1595513260318" duration="13665000" />
     </task>
     <servers />
   </component>
@@ -53,9 +70,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1595520409462">
+    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1595590778124">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595520409462" />
+    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595590778124" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595590383324">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595590383324" />
   </component>
 </project>
