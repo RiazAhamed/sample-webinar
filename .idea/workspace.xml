@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-registration-wpwsjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-registration-wpwsjs.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595509837346</updated>
       <workItem from="1595509844977" duration="1388000" />
-      <workItem from="1595513260318" duration="15069000" />
+      <workItem from="1595513260318" duration="19463000" />
     </task>
     <servers />
   </component>
@@ -64,10 +65,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1595590778124">
+    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1595682688824">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595590778124" />
+    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595682688824" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595590383324">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

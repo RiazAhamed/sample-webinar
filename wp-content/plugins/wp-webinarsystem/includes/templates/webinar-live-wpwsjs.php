@@ -112,8 +112,6 @@ $params = [
                 background: url(<?php echo "'" . plugins_url('../images/custom/webinar-bg.jpg', __FILE__) . "'" ?>);
                 background-size: cover;
                 background-repeat: no-repeat;
-//                 display: inline-block;
-//                 width: 100%;
                 height: 100%;
                 width: 100vw;
                 margin: 0;
@@ -123,12 +121,9 @@ $params = [
                  padding: 50px 0 40px;
             }
             .webinar-container-wrapper {
-//                 height: calc(100vh - 100px);
                 padding: 0;
-//                 padding-left: 20px;
             }
             #wpws-live {
-//                 background: #ffffff;
                    min-height: 720px;
                    max-height: 720px;
                    box-shadow: 0 0 40px #a7a7a7;
@@ -193,14 +188,14 @@ $params = [
                 <div class="grid header-container-wrapper">
                     <div class="grid__column grid__column--12 grid__column--7@large">
                         <div class="grid grid--justify grid--gapless space space--xlarge space--none@large">
+                            <div class="client-images-wrapper grid__column grid__column--12 grid__column--4@large space space--large">
+                                <img src=<?php echo '"' . plugins_url("../images/custom/LTD_Brandmark_RGB.png", __FILE__) . '"' ?> class="client-images" />
+                            </div>
                             <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
                                 <img src=<?php echo '"' . plugins_url("../images/custom/logo-1.png", __FILE__) . '"' ?> class="client-images" />
                             </div>
                             <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
                                  <img src=<?php echo '"' . plugins_url("../images/custom/logo-2.png", __FILE__) . '"' ?> class="client-images" />
-                            </div>
-                            <div class="client-images-wrapper grid__column grid__column--12 grid__column--4@large space space--large">
-                                <img src=<?php echo '"' . plugins_url("../images/custom/LTD_Brandmark_RGB.png", __FILE__) . '"' ?> class="client-images" />
                             </div>
                         </div>
                     </div>
