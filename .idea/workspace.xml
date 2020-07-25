@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e74db2-2c59-4799-a2c6-fdf1be57f879" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/LTD_Brandmark_RGB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/logo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/logo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom/webinar-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/ltd-app-styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" afterDir="false" />
@@ -62,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595509837346</updated>
       <workItem from="1595509844977" duration="1388000" />
-      <workItem from="1595513260318" duration="13665000" />
+      <workItem from="1595513260318" duration="15069000" />
     </task>
     <servers />
   </component>

@@ -108,7 +108,7 @@ $params = [
                 overflow: auto;
             }
             .custom-container {
-                padding: 0 0 100px 0;
+                padding: 0 0 80px 0;
                 background: url(<?php echo "'" . plugins_url('../images/custom/webinar-bg.jpg', __FILE__) . "'" ?>);
                 background-size: cover;
                 background-repeat: no-repeat;
@@ -123,13 +123,14 @@ $params = [
                  padding: 50px 0 40px;
             }
             .webinar-container-wrapper {
-                height: calc(100vh - 100px);
+//                 height: calc(100vh - 100px);
                 padding: 0;
 //                 padding-left: 20px;
             }
             #wpws-live {
 //                 background: #ffffff;
-                   max-height: 600px;
+                   min-height: 720px;
+                   max-height: 720px;
                    box-shadow: 0 0 40px #a7a7a7;
             }
             .wpws-webinar-toolbar, .wpws-webinar-summary-wrapper, .wpws-webinar-tab-header {
@@ -141,12 +142,14 @@ $params = [
             .mejs__container, iframe {
                      /* height: calc(100vh - 500px) !important;
                        min-height: 600px !important;*/
-                       max-height: 600px;
+                       max-height: 720px;
                        width: 100%;
+                       min-height: 720px;
             }
             .client-images-wrapper {
                 align-self: center;
                 text-align: center;
+                margin-top: 0;
             }
             .client-images {
                 max-height: 80px;
@@ -169,6 +172,19 @@ $params = [
             }
             .svg-inline--fa {
                 display: none;
+            }
+            #wpws-player {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+            @media (max-width: 1000px) {
+                .mejs__container, iframe {
+                    min-height: auto;
+                }
+                .heading, .subtitle {
+                    text-align: center;
+                }
             }
         </style>
         <div class="grid custom-container">
