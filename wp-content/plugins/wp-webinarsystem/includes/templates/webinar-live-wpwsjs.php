@@ -173,8 +173,26 @@ $params = [
                 width: 100%;
                 height: 100%;
             }
+            .start-video-text {
+                font-size: 27px;
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background-color: #fff;
+                color: #333333;
+                margin: 0;
+                display: flex;
+                align-items: center;
+                place-content: center;
+            }
+            .sc-cHGsZl.jvPfuB {
+                background: #ffffff;
+                min-height: 720px;
+            }
             @media (max-width: 1000px) {
-                .mejs__container, iframe {
+                .mejs__container, iframe, .sc-cHGsZl.jvPfuB { {
                     min-height: auto;
                 }
                 .heading, .subtitle {
