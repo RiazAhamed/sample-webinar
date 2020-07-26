@@ -128,9 +128,12 @@ $params = [
                    max-height: 720px;
                    box-shadow: 0 0 40px #a7a7a7;
             }
-            .wpws-webinar-toolbar, .wpws-webinar-summary-wrapper, .wpws-webinar-tab-header {
+            .wpws-webinar-toolbar, .wpws-webinar-summary-wrapper {
                 display: none;
             }
+//             .wpws-webinar-tab-header {
+//                 display: none;
+//             }
             .align-self--center {
                 align-self: center;
             }

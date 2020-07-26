@@ -137,6 +137,10 @@ $webinar_extended = [
         .single__wrapper {
             background-color: transparent;
         }
+        button.wpws-24 {
+            background-color: #ed5844 !important;
+            border-radius: 2px;
+        }
     </style>
     <div class="grid custom-container">
         <div class="single__wrapper wrapper container container--xlarge container--center">
