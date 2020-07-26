@@ -191,12 +191,14 @@ $params = [
                 background: #ffffff;
                 min-height: 720px;
             }
-            @media (max-width: 1000px) {
-                .mejs__container, iframe, .sc-cHGsZl.jvPfuB { {
-                    min-height: auto;
-                }
+            @media (max-width: 1200px) {
                 .heading, .subtitle {
-                    text-align: center;
+                    text-align: center !important;
+                }
+            }
+            @media (max-width: 1000px) {
+                .mejs__container, iframe, .sc-cHGsZl.jvPfuB {
+                    min-height: auto;
                 }
             }
         </style>
