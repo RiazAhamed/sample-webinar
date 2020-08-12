@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74e74db2-2c59-4799-a2c6-fdf1be57f879" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/wpws-js/build/static/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/cache/webinar_3128e554-7492-4fd6-9c9f-8ec4ba764ce0_v2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-live-wpwsjs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-registration-wpwsjs.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/templates/webinar-registration-wpwsjs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/wpws-js/build/static/js/main.43d57603.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/wpws-js/build/static/js/main.43d57603.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-includes/js/dist/block-library.js" beforeDir="false" afterPath="$PROJECT_DIR$/wp-includes/js/dist/block-library.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wp-content/plugins/wp-webinarsystem/includes/images/custom" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,7 +59,18 @@
       <option name="presentableId" value="Default" />
       <updated>1595509837346</updated>
       <workItem from="1595509844977" duration="1388000" />
-      <workItem from="1595513260318" duration="24547000" />
+      <workItem from="1595513260318" duration="24784000" />
+      <workItem from="1595756085941" duration="85000" />
+      <workItem from="1595759600959" duration="114000" />
+      <workItem from="1595759884458" duration="27000" />
+      <workItem from="1595766701443" duration="230000" />
+      <workItem from="1596448541480" duration="272000" />
+      <workItem from="1596449148945" duration="2000" />
+      <workItem from="1596451998104" duration="560000" />
+      <workItem from="1596552193545" duration="572000" />
+      <workItem from="1597140426081" duration="550000" />
+      <workItem from="1597142553447" duration="3229000" />
+      <workItem from="1597215464997" duration="1251000" />
     </task>
     <servers />
   </component>
@@ -65,13 +78,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1595682688824">
+    <state x="301" y="105" width="1133" height="870" key="find.popup" timestamp="1597214961631">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595682688824" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1595590383324">
+    <state x="301" y="105" width="1133" height="870" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597214961631" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1597213930395">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1595590383324" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1597213930395" />
   </component>
 </project>

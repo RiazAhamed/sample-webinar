@@ -128,7 +128,22 @@ $params = [
                    max-height: 720px;
                    box-shadow: 0 0 40px #a7a7a7;
             }
-            .wpws-webinar-toolbar, .wpws-webinar-summary-wrapper {
+
+            <?php if(!is_user_logged_in()) { ?>
+
+            .wpws-webinar-summary-wrapper {
+                display:none;
+            }
+
+            <?php } else { ?>
+
+            .wpws-webinar-summary-wrapper {
+                background-color:white;
+            }
+
+            <?php } ?>
+
+            .wpws-webinar-toolbar {
                 display: none;
             }
 //             .wpws-webinar-tab-header {
@@ -154,7 +169,7 @@ $params = [
                 width: auto;
                 padding: 15px;
             }
-            .wpws-webinar-main, .wpws-webinar-summary-wrapper {
+            .wpws-webinar-main {
                 background: transparent !important;
             }
             .heading {
@@ -204,29 +219,59 @@ $params = [
                     min-height: auto;
                 }
             }
+            .image-container {
+                padding-right: 0;
+                text-align: center;
+                padding-left: 75px;
+            }
+            .image-container img {
+                padding-right: 0;
+            }
+            @media (max-width: 1400px) {
+                .image-container {
+                    padding-left: 0;
+                }
+            }
+            #video-wrapper > div:nth-child(2) {
+                display: none;
+            }
+            .twitch-overlay {
+                position: absolute;
+                z-index: 999;
+                bottom: -48px;
+                right: 0;
+                width: 200px;
+                height: 130px;
+                background: transparent;
+            }
+            @media (max-width: 768px) {
+                .twitch-wrapper {
+                    overflow: hidden;
+                }
+            }
+            .twitch-fallow-overlay {
+                position: absolute;
+                z-index: 999;
+                top: -48px;
+                left: 0;
+                width: 200px;
+                height: 130px;
+                background: transparent;
+            }
+
         </style>
         <div class="grid custom-container">
             <!-- webinar header -->
             <div class="single__wrapper wrapper container container--xlarge container--center">
                 <div class="grid header-container-wrapper">
-                    <div class="grid__column grid__column--12 grid__column--7@large">
-                        <div class="grid grid--justify grid--gapless space space--xlarge space--none@large">
-                            <div class="client-images-wrapper grid__column grid__column--12 grid__column--4@large space space--large">
-                                <img src=<?php echo '"' . plugins_url("../images/custom/LTD_Brandmark_RGB.png", __FILE__) . '"' ?> class="client-images" />
-                            </div>
-                            <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
-                                <img src=<?php echo '"' . plugins_url("../images/custom/logo-1.png", __FILE__) . '"' ?> class="client-images" />
-                            </div>
-                            <div class="client-images-wrapper grid__column grid__column--6 grid__column--4@large space space--large">
-                                 <img src=<?php echo '"' . plugins_url("../images/custom/logo-2.png", __FILE__) . '"' ?> class="client-images" />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="grid__column grid__column--12 grid__column--5@large align-self--center">
-                        <h1 class="heading">Title of the talk</h1>
-                        <h4 class="subtitle subtitle--primary-font paragraph weight-400 gutter gutter--small">
+                    <div class="grid__column grid__column--12 grid__column--10@large align-self--center">
+                        <h1 class="heading text-center"><?php echo $webinar->name; ?></h1>
+                        <!--<h4 class="subtitle subtitle--primary-font paragraph weight-400 gutter gutter--small">
                             A little Description about what this about.
-                        </h4>
+                        </h4>-->
+                    </div>
+                    <div class="grid__column grid__column--12 grid__column--2@large image-container">
+                        <img src=<?php echo '"' . plugins_url("../images/custom/logo-1.png", __FILE__) . '"' ?> class="client-images" />
                     </div>
                 </div>
             </div>
@@ -242,5 +287,6 @@ $params = [
 
             <!-- placeholder for the body script tag -->
             <div id="body_script"></div>
+
     </body>
 </html>
